@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="input-form">
+        <form method="POST">
+            <label for="ph">pH </label>
+            <input type="number" step="0.01" id="ph">
+            <label for="hardness">HARDNESS </label>
+            <input type="number" step="0.01" id="hardness">
+            <label for="solids">SOLIDS </label>
+            <input type="number" step="0.01" id="solids">
+            <label for="chloramines">CHLORAMINES </label>
+            <input type="number" step="0.01" id="chloramines">
+            <label for="sulfate">SULFATE </label>
+            <input type="number" step="0.01" id="sulfate">
+            <label for="conductivity">CONDUCTIVITY </label>
+            <input type="number" step="0.01" id="conductivity">
+            <label for="organic-carbon">ORGANIC CARBON </label>
+            <input type="number" step="0.01" id="organic-carbon">
+            <label for="trihalomethanes">TRIHALOMETHANES </label>
+            <input type="number" step="0.01" id="trihalomethanes">
+            <label for="turbidity">TURBIDITY </label>
+            <input type="number" step="0.01" id="turbidity">
+            <div class="check-button">
+                <button class="btn-hover" type="submit">Check Potability</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

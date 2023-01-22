@@ -1,0 +1,78 @@
+body{
+    background: rgb(0,10,36);
+background: linear-gradient(90deg, rgba(0,10,36,1) 0%, rgba(80,33,154,1) 45%, rgba(107,230,255,1) 100%);
+}
+
+.input-form{
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid #6e00ad;
+    padding: 2rem;
+}
+
+.input-form {
+    width: 500px;
+    clear: both;
+}
+
+.input-form input {
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    clear: both;
+    margin: 1rem auto;
+}
+
+.input-form label {
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    clear: both;
+
+}
+
+
+.check-button{
+    width: 100%;
+    text-align: center;
+    clear: both;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover {
+    background-image: linear-gradient(to right, #6253e1, #4a4da9, #A3A1FF, #000347);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
